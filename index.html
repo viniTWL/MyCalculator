@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="css/style.css">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <script src="js/calc.js" defer></script>
+
+</head>
+
+<body>
+  <main>
+    <div class="calculator">
+      <div class="head">
+          <h1 class="title">calc</h1>
+          <input class="type-checkbox" id="toogle" type="checkbox" name="name" onclick="darkMode()">
+          <label class="estado" for="toogle">
+          </label>
+      </div>
+      <div class="result"></div>
+      <div class="buttons">
+        <div class="keys">
+            <button class="num">7</button>
+            <button class="num">8</button>
+            <button class="num">9</button>
+            <button class="reset">DEL</button>
+            <button class="num">4</button>
+            <button class="num">5</button>
+            <button class="num">6</button>
+            <button class="num">+</button>
+            <button class="num">1</button>
+            <button class="num">2</button>
+            <button class="num">3</button>
+            <button class="num">-</button>
+            <button class="num">.</button>
+            <button class="num">0</button>
+            <button class="num">/</button>
+            <button class="num">x</button>
+        </div>
+        <div class="commands">
+            <button class="reset">RESET</button>
+            <button class="equal">=</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
