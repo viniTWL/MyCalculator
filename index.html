@@ -23,29 +23,31 @@
           <label class="estado" for="toogle">
           </label>
       </div>
-      <div class="result"></div>
+      <div class="screen">
+        <p class="result"></p>
+      </div>
       <div class="buttons">
         <div class="keys">
-            <button class="num">7</button>
-            <button class="num">8</button>
-            <button class="num">9</button>
-            <button class="reset">DEL</button>
-            <button class="num">4</button>
-            <button class="num">5</button>
-            <button class="num">6</button>
-            <button class="num">+</button>
-            <button class="num">1</button>
-            <button class="num">2</button>
-            <button class="num">3</button>
-            <button class="num">-</button>
-            <button class="num">.</button>
-            <button class="num">0</button>
-            <button class="num">/</button>
-            <button class="num">x</button>
+            <button class="num" onclick="insertNum('7')">7</button>
+            <button class="num" onclick="insertNum('8')">8</button>
+            <button class="num" onclick="insertNum('9')">9</button>
+            <button class="reset" onclick="del()">DEL</button>
+            <button class="num" onclick="insertNum('4')">4</button>
+            <button class="num" onclick="insertNum('5')">5</button>
+            <button class="num" onclick="insertNum('6')">6</button>
+            <button class="num" onclick="insertNum('+')">+</button>
+            <button class="num" onclick="insertNum('1')">1</button>
+            <button class="num" onclick="insertNum('2')">2</button>
+            <button class="num" onclick="insertNum('3')">3</button>
+            <button class="num" onclick="insertNum('-')">-</button>
+            <button class="num" onclick="insertNum('.')">.</button>
+            <button class="num" onclick="insertNum('0')">0</button>
+            <button class="num" onclick="insertNum('/')">/</button>
+            <button class="num" onclick="insertNum('*')">x</button>
         </div>
         <div class="commands">
-            <button class="reset">RESET</button>
-            <button class="equal">=</button>
+            <button class="reset" onclick="reset()">RESET</button>
+            <button class="equal" onclick="calc()">=</button>
         </div>
       </div>
     </div>
