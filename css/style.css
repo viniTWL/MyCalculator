@@ -23,7 +23,7 @@
     margin-bottom: 25px;
 }
 
-.result{
+.screen{
     margin-bottom: 20px;
     height: 15%;
     border-radius: 3%;
@@ -174,4 +174,11 @@
 
   .type-checkbox:checked + label:before {
     left: 8px;
+  }
+
+  .result{
+    display: flex;
+    font-size: 3em;
+    flex-direction: row-reverse;
+    padding: 22px;
   }
